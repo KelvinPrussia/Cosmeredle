@@ -57,7 +57,6 @@ def main():
                     print(0)
 
 def compare_prefix(guess_species, correct_species):
-    print(guess_species.split("(")[0] + " | " + correct_species.split("(")[0])
     if guess_species.split("(")[0] == correct_species.split("(")[0]:
         print(1)
     else:
